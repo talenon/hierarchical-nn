@@ -9,7 +9,7 @@ To reproduce the experiment, ImageNet-1k, CIFAR100 and FGVC-Aricraft should be d
 
 Run train.py to train a network and test.py to test it. The required arguments are:
 
-"-hl": Using loss hierarchical or not \\
+"-hl": Using loss hierarchical or not  
 "-m": Inception, ResNet or ViT"
 "-d": imagenet, fgvc, cifar, bones
 "-r": Reduction factor
