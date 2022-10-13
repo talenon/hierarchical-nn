@@ -1,13 +1,15 @@
-# Official code for the paper "Leveraging the class hierarchy in deep learning", under review at AISTATS2023
+# Code for the paper "Leveraging the class hierarchy in deep learning", under review at AISTATS2023
 
 ### This is preliminary anonymous directory. The code will be improved and moved to a public directory under acceptance. A notebook will be also published for running Linear Discriminant Analysis on representations.
 
-To reproduce the experiment, ImageNet-1k, CIFAR100 and FGVC-Aircraft should be download from the official release and re-organized into train and test.  
-ImageNet: https://www.image-net.org/challenges/LSVRC/index.php  
-CIFAR-100: https://www.cs.toronto.edu/~kriz/cifar.html  
-FGVC-Aircraft: https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/  
+![](assets/lda.jpg)
 
-Run train.py to train a network and test.py to test it. The required arguments are:
+To reproduce the experiment, ImageNet-1k, CIFAR100 and FGVC-Aircraft should be download from the official release and re-organized into train and test.  
+[ImageNet](https://www.image-net.org/challenges/LSVRC/index.php) 
+[CIFAR-100](https://www.cs.toronto.edu/~kriz/cifar.html)
+[FGVC-Aircraft](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/)  
+
+Run ```train.py``` to train a network and ```test.py``` to test it. The required arguments are:
 
 "-hl": Using loss hierarchical or not  
 "-m": Inception, ResNet or ViT"  
