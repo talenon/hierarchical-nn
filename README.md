@@ -26,19 +26,19 @@ The tree hierarchies for the tree dataset are available in the folder ```Trees``
 
 Run ```train.py``` to train a network and ```test.py``` to test it. The required arguments are:
 
-```-hl```: Using loss hierarchical or not  
-```-m```: Inception, ResNet or ViT  
-```-d```: imagenet, fgvc, cifar 
-```-r```: Reduction factor  
+```-hl```: Whether to use loss hierarchical or not  
+```-m```: Choose between ```inception```, ```resnet``` or ```vit```  
+```-d```: Choose between ```imagenet```, ```fgvc``` or ```cifar``` 
+```-r```: Reduction factor of the training dataset 
 ```-tp```: Path to the tree file  
 ```-dp```: Path to the dataset folder containing train and test folders  
 ```-op```: Path to folder where to save models  
-```-lp```: Path to folder where to save logs  
+```-lp```: Path to folder where to save logs with Tensorboard 
 
 While the non-required argument are:  
 ```-b```: Batch size, default=64  
 ```-e```: Number of epochs, default=30  
 ```-lr```: Learning rate, default=0.001  
 ```-wd```: Weight decay, default=0.1  
-```-pm```: Weather to plot or not matrices, default=False  
+```-pm```: Wether to plot or not top-down and down-top matrices, default=False  
 
