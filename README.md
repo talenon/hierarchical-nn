@@ -1,7 +1,7 @@
 # Leveraging the class hierarchy in deep learning
 ## Under review at AISTATS2023
 
-### This is preliminary anonymous directory. The code will be improved and moved to a public directory under acceptance. A notebook will be also published for running Linear Discriminant Analysis on representations.
+### ⚡ This is preliminary anonymous directory. The code will be improved and moved to a public directory under acceptance. A notebook will be also published for running Linear Discriminant Analysis on representations ⚡
 
 ![](assets/lda.PNG)
 
