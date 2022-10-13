@@ -22,7 +22,7 @@ To reproduce the experiment, ImageNet-1K, CIFAR100 and FGVC-Aircraft should be d
 2. [CIFAR-100](https://www.cs.toronto.edu/~kriz/cifar.html)  
 3. [FGVC-Aircraft](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/)    
 
-The tree hierarchies for the tree dataset are available in the folder ```Trees```.  
+The tree hierarchies for the tree dataset are available in the folder ```trees```.  
 
 Run ```train.py``` to train a network and ```test.py``` to test it. The required arguments are:
 
