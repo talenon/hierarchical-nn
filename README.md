@@ -4,7 +4,7 @@
 
 ### This is preliminary anonymous directory. The code will be improved and moved to a public directory under acceptance. A notebook will be also published for running Linear Discriminant Analysis on representations.
 
-To reproduce the experiment, ImageNet-1k, CIFAR100 and FGVC-Aircraft should be download from the official release and re-organized into train and test.
+To reproduce the experiment, ImageNet-1k, CIFAR100 and FGVC-Aircraft should be download from the official release and re-organized into train and test.  
 ImageNet: https://www.image-net.org/challenges/LSVRC/index.php  
 CIFAR-100: https://www.cs.toronto.edu/~kriz/cifar.html  
 FGVC-Aircraft: https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/  
