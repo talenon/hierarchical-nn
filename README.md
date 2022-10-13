@@ -15,8 +15,8 @@ The tree hierarchies for the tree dataset are available in the folder ```Trees``
 Run ```train.py``` to train a network and ```test.py``` to test it. The required arguments are:
 
 ```-hl```: Using loss hierarchical or not  
-```-m```: Inception, ResNet or ViT"  
-```-d```: imagenet, fgvc, cifar, bones  
+```-m```: Inception, ResNet or ViT  
+```-d```: imagenet, fgvc, cifar 
 ```-r```: Reduction factor  
 ```-tp```: Path to the tree file  
 ```-dp```: Path to the dataset folder containing train and test folders  
